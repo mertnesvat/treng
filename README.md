@@ -3,7 +3,7 @@
 Free English ↔ Turkish dictionary — 1,460,672 translation pairs, fully static,
 served from GitHub Pages with **no server or backend**.
 
-**Live:** https://mertnesvat.com/treng/
+**Live:** https://turengo.com/
 
 ## How it works
 

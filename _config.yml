@@ -1,7 +1,7 @@
 title: treng
 description: Free English ↔ Turkish dictionary — 1.46M translation pairs, fully static.
-baseurl: "/treng"
-url: "https://mertnesvat.com"
+baseurl: ""
+url: "https://turengo.com"
 
 # NB: Jekyll excludes are prefix-matched — "db/dictionary.sqlite3" here would
 # also drop the deployed .000-.005 chunks. The full DB is gitignored instead.
