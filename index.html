@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>treng — English ↔ Turkish dictionary</title>
+  <meta name="description" content="Free English ↔ Turkish dictionary. 1.46 million translation pairs, fully static, no server.">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header>
+    <h1><a href=".">treng</a></h1>
+    <p class="tagline">English ↔ Turkish dictionary &middot; 1,460,672 translation pairs &middot; <a href="about.html">about</a></p>
+  </header>
+
+  <main>
+    <div class="search-row">
+      <input id="q" type="search" placeholder="Search a word… / Bir kelime arayın…"
+             autocomplete="off" autocapitalize="off" spellcheck="false" autofocus>
+      <div class="direction" role="radiogroup" aria-label="Direction">
+        <label><input type="radio" name="dir" value="auto" checked> Auto</label>
+        <label><input type="radio" name="dir" value="en"> EN→TR</label>
+        <label><input type="radio" name="dir" value="tr"> TR→EN</label>
+      </div>
+    </div>
+    <div id="status" aria-live="polite"></div>
+    <div id="results"></div>
+  </main>
+
+  <footer>
+    <p>Data: <a href="https://github.com/firatkaya1/dictionary">firatkaya1/dictionary</a> (MIT)
+       &middot; queried in your browser via
+       <a href="https://github.com/phiresky/sql.js-httpvfs">sql.js-httpvfs</a> — no server involved.</p>
+  </footer>
+
+  <script src="vendor/sqljs-httpvfs/index.js"></script>
+  <script src="assets/js/search.js"></script>
+</body>
+</html>

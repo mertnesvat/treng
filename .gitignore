@@ -1,0 +1,5 @@
+# Full DB exceeds GitHub's 100 MB file limit; only the .000-.005 chunks are committed.
+db/dictionary.sqlite3
+.DS_Store
+_site/
+.jekyll-cache/

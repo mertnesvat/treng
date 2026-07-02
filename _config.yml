@@ -1,0 +1,9 @@
+title: treng
+description: Free English ↔ Turkish dictionary — 1.46M translation pairs, fully static.
+baseurl: "/treng"
+url: "https://mertnesvat.github.io"
+
+exclude:
+  - tools/
+  - README.md
+  - db/dictionary.sqlite3
